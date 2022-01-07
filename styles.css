@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HERO IMAGE */
+
+.hero-text{
+    color: #ffffff;
+}
+
+.hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* NAVBAR */ 
+
+.logo-image img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 0px;
+    }
+
+.nav-bar{
+    margin: 20px 40px 10px 40px;
+    padding-bottom: 0%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li a{
+    display: block;
+    color: #767880;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.compName{
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.linkss{
+    margin: 5px 10px;
+}
+
+
+/* FORM */
+
+input{
+    background: none;
+    border: none;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+label, input{
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+}
+
+input{
+    font-size: 16px;
+}
+
+label{
+    font-size: 14px;
+}
+.box{
+	position:absolute;
+    background-color: #e0e0f134;
+	border-radius:18px;
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    height: 60px;
+    width: 60px;
+}
+
+.box:hover
+{
+    box-shadow: inset 0 0 0 3px #53a7ea;
+}
+
+#ip{
+    position:relative;
+	margin-bottom:25px;
+    size: 100;
+}
+
+#ip label{
+	position:absolute;
+	top:12px;
+	left:25px;
+    bottom: 0%;
+	/* font-size:16px; */
+	color:rgba(206, 206, 206, 0.753);	
+}
+
+#ip input{ 
+    border:0;
+    background:transparent;
+    width:75%;
+    left: 15px;
+    padding: -2px 0 5px 0;
+    /* font-size:16px; */
+    color:#fff;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+#ip input:focus{ 
+    border:none;	
+    outline:none;
+}
+
+i{
+    margin: 8px 10px;
+    float: right;
+    padding: 0;
+}
+
+.fas{
+    font-size: 20px !important;
+	color:rgba(206, 206, 206, 0.753);	
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.box1,.box3,.box4{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box1{
+    width:73%;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.box2{
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 24%;
+    float:left;
+}
+
+.box3,.box4{
+    margin-right: 500px;
+    width: 55%;
+}
+
+#fname, #lname{
+    margin-top:-14px;
+}
+
+#email, #pwd{
+    margin-top: 40px;
+}
+
+
+/* HEADINGS */
+
+h3,h1,p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 30px;
+}
+
+h1,h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+h3,p{
+    color: #767880;
+    font-size: 16px;
+}
+
+p{
+    margin-bottom: 18px;
+    padding-bottom: 25px;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 60px;
+}
+
+h3{
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+#fullstop1{
+    color: #5195EA;
+    font-size: 20px;
+}
+
+#fullstop2{
+    color: #5195EA;
+    font-size: 60px;
+}
+
+#log{
+    color: #5195EA;
+    text-decoration: none;
+}
+
+/* BUTTONS */
+
+.button {
+    background-color: #595B63;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 25px;
+    width: 26.5%;
+    transition: 0.2s;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+    float: left;
+}
+
+.button:hover{
+    background-color: #5195EA;
+    color: #ffffff;
+}
+
+/* GRID */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item{
+    grid-column: 1;
+    padding-left: 10px;
+}
+
+/* .item1,.item2,.item3{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+} */
+
+/* .item1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.item2{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.item3{
+    grid-row: 2;
+    grid-column: 1 / span 2;
+}
+
+.item4{
+    grid-row: 3;
+    grid-column: 1 / span 2;
+} */
+
+.item1,.item2,.item3,.item4{
+    grid-row: 1;
+    /* grid-column: 2; */
+}
+
+.item5{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.item1{
+    float:left;
+}
